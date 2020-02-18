@@ -6,7 +6,6 @@ package com.cg.Exception;
  * Description   : cheacking user entered accId and fromDate,toDate is in correct form 
  *                 
  *
- * 
  **********************************************************************************/
 public class ValidateException extends Exception{
 
