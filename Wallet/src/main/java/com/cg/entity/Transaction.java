@@ -19,6 +19,11 @@ public class Transaction {
 	private LocalDate dateOfTransaction;
 	private float amount;
 
+	public Transaction(Account account) {
+		super();
+		this.account = account;
+	}
+
 	public int getTransactionId() {
 		return transactionId;
 	}

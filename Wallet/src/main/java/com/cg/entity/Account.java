@@ -23,6 +23,11 @@ public class Account {
 		this.user=user;
 	}
 	
+	public Account(User user) {
+		super();
+		this.user = user;
+	}
+
 	public String getAccountId() {
 		return accountId;
 	}

@@ -65,11 +65,11 @@ public class WalletTest {
 	@Test
 	@DisplayName("Test trasactions accId1")
 	public void walletTest5() throws ValidateException, TxException, AccountIdException {
-		assertTrue(((ser.getTxns("123456", LocalDate.of(2019, 07, 14),LocalDate.of(2020, 01, 15))).size())==4);
+		assertTrue(((ser.getTxns("123456", LocalDate.of(2019, 07, 14),LocalDate.of(2020, 03, 15))).size())==5);
 	}
 	@Test
-	@DisplayName("Test trasactions accId1")
+	@DisplayName("Test trasactions accId2")
 	public void walletTest6() throws ValidateException, TxException, AccountIdException {
-		assertEquals(4,((ser.getTxns("123456", LocalDate.of(2019, 07, 14),LocalDate.of(2020, 01, 15))).size()));
+		assertEquals(3,((ser.getTxns("123456", LocalDate.of(2019, 10, 14),LocalDate.of(2020, 02, 15))).size()));
 	}
 }
