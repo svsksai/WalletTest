@@ -15,7 +15,7 @@ public class AccountIdException extends Exception{
 	}
 
 	public AccountIdException(String message) {
-		super(message);
+		System.err.println(message);
 	
 	}
 

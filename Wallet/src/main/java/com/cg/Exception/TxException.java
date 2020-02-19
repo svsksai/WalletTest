@@ -16,7 +16,7 @@ public class TxException extends Exception{
 	}
 
 	public TxException(String message) {
-		super(message);
+		System.err.println(message);
 		
 	}
 
